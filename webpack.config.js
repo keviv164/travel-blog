@@ -17,6 +17,7 @@ var config = {
     module: {
         loaders: [
             { test: /\.scss$/, loaders: ['style-loader', 'css-loader', 'sass-loader'] },
+            { test: /\.(png|jpg)$/, loader: 'url-loader?limit=8192' },
             {
                 test: /\.jsx?$/, // search for js files
                 exclude: /node_modules/,

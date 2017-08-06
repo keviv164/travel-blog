@@ -1,27 +1,44 @@
 .header-topbar {
-    position: fixed;
-    z-index: 10;
-    top: 0;
-    left: 0;
-    background: #0505e9;
-    width: 100%;
-    padding: 0 25px;
-    height: var(--topbar-height);
-    line-height: var(--topbar-height);
-    color: #fff;
-    a {
-    color: #fff;
-    text-transform: uppercase;
-    text-decoration: none;
-    letter-spacing: 1px;
-    line-height: 40px;
-    h1 {
-    font-size: 28px;
-}
-}
-section {
+  position: fixed;
+  min-width: 1000px;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  background: #000000;
+  width: 100%;
+  padding: 0px 0px;
+  height: var(--topbar-height);
+  line-height: var(--topbar-height);
+  color: #f8f8f8;
+  Img {
+
+    height: 120px;
+  }
+  section {
     position: absolute;
     top: 0px;
     right: 100px;
-}
+  }
+  & .social-network-tray {
+    display: inline;
+    ul {
+      float: right;
+      position: absolute;
+      right: 10px;
+      margin: 20px 28px 0 0;
+      display: inline-block;
+      li {
+        a{
+          Img {
+            height: 70px;
+            width: 70px;
+          }
+        }
+        display: inline;
+        a:hover Img {
+          width:80px;
+        }
+      }
+    }
+  }
 }

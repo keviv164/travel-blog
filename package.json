@@ -16,10 +16,12 @@
     "node-sass": "^4.5.3",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
+    "react-image": "^1.0.1",
+    "sass-loader": "^6.0.6",
     "serve-favicon": "~2.4.2",
+    "url-loader": "^0.5.9",
     "webpack": "^3.4.1",
     "webpack-css-loaders": "^1.0.0",
-    "webpack-dev-server": "^2.6.1",
-    "sass-loader": "^6.0.6"
+    "webpack-dev-server": "^2.6.1"
   }
 }

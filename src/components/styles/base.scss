@@ -1,8 +1,11 @@
 :root {
-    --topbar-height: 80px;
+    --topbar-height: 120px;
     --padding: 25px;
+    font-family: Helvetica ,Arial, sans-serif;
+    background-color: #fbfafa;
 }
 h1{
-    font-size: 100px;
+    position: absolute;
+    padding-top: 120px;
+    font-size: 40px;
 }
-
